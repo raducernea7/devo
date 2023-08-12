@@ -1,0 +1,54 @@
+/* styles.css */
+
+/* Custom styles for the personal website */
+
+body {
+    background-color: #1a202c; /* Dark background */
+    color: #e2e8f0; /* Light text */
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.header {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #a0aec0;
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.section h2 {
+    font-size: 2rem;
+    color: #a0aec0;
+}
+
+.section p {
+    line-height: 1.6;
+}
+
+.footer {
+    text-align: center;
+    padding: 2rem 0;
+    color: #718096;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .header h1, .section h2 {
+        font-size: 2rem;
+    }
+}
